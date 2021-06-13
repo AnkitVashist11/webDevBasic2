@@ -1,0 +1,175 @@
+body{
+	background-color:#f5f5f5;
+	color:rgb(500,50,50);
+	font-family:comic sans MS,cursive,serif;
+	font-size:16px;
+	font-weight:normal;
+	/*same as above*/
+	font:normal 16px comic sans MS,cursive,serif;
+	line-height:1.4em;  
+
+	margin: 30px;
+ 
+ 
+}   /*to style all links present globally this tag is used*/
+    a{
+      color: blue;  
+    }
+    a:hover{
+    	color:red;
+    }
+    a:active{
+    	color: yellow;
+    }
+    a:visited{
+    	
+    }
+    .clr{
+    	clear: both;
+    }
+    .box1{
+    	background-color:rgb(250,500,50);
+    	color: green;
+    	border: 5px black solid;
+    	padding-left:20px ;
+
+    }
+    .container{
+    	width: 95%;
+    	margin: auto;
+    }
+    .container h1{
+    	font-weight:bolder;
+     	font-style: italic;
+    	text-decoration: underline;
+    	text-decoration-color:rgb(10,150,0);
+    	color:rgb(500,50,50);
+    	letter-spacing:0.2em;
+    	word-spacing:1.0em;
+    	text-transform:uppercase;
+    }
+    .box2{
+    	margin-left:30px;
+    	border:4px dotted black; 
+    	margin:20px 30px;
+    	padding-left: 20px;
+    	color: blue;
+    	background-color:rgb(10,500,0);
+
+    }
+    .categories{
+    	margin-left:30px;
+    	border: 3px black solid;
+    	border-radius: 40px; 
+    	margin-right: 30px; 
+
+    }
+    .categories h2{
+    	text-align: center;
+    	text-transform: uppercase;
+    	text-decoration:underline;
+
+    }
+    .categories ul{
+    	list-style: square;
+
+    }
+    .categories li{
+    	padding-bottom: 20px;
+    	list-style-image: url('css_check1.png');
+    }
+    .myform{
+    	padding-left: 30px;
+    }
+    .myform .form-group{
+    	padding-bottom: 20px;
+    }
+    .myform label{
+    	display: block;
+    }
+    .myform input[type="text"],.myform textarea{
+    	width: 100%;
+    	padding-bottom: 10px;
+    }
+    .myform input[type="submit"]{
+        background-color: #333;
+        color: white;
+        border-radius: 500px;
+        padding:7px; 
+    }
+    /*or use class -button for previous last*/
+    /*  .button{}  -like this*/
+    .myform input[type="submit"]:hover{
+		background-color: red;
+    }
+    .block{
+    	float: left;
+    	width: 33.3%;
+    	padding: 10px;
+    	border: 2px solid #ccc;
+        box-sizing: border-box;
+        color:blue; 
+    }
+    #main-block{
+    	float: left;
+    	width: 70%;
+    	background-color: yellow;
+    	color:red;
+    	padding:5px;
+    	border:1px dotted red;
+    	box-sizing: border-box;
+    }
+    #sidebar{
+    	float: right;
+    	width: 30%;
+    	background-color: yellow;
+    	color:green;
+    	padding:5px;
+    	border: 1px dotted green;
+    	box-sizing: border-box;
+
+    }
+    .pbox{
+    	width: 900px;
+    	height: 300px;
+    	border: 1px solid #333;
+    	padding-left: 20px;
+    	position: relative;
+    	background-image: url('bg1.jpg');
+    	background-repeat: no-repeat;
+    	/*background-position: 300px 900px;*/
+    	background-position: center center;
+    	/*background-position:200% 200%;*/
+
+    }
+    .pbox h1{
+    	position: absolute;
+    	top:40px;
+    	left: 80px;
+    }
+    .pbox h2{
+    	position: absolute;
+    	bottom: 100px;
+    	right: 300px;
+    }
+    .fixme{
+    	background-color: blue;
+    	color:white;
+    	padding: 0px 5px;
+        margin: -30px;
+        position: fixed;
+        top: 100px;
+    }
+    .mylist li:first-child{
+        background-color:green;    
+
+    }
+    .mylist li:last-child{
+    	background-color: yellow;
+    }
+    .mylist li:nth-child(5){
+        background-color: blue;
+    }
+    .mylist li:nth-child(even){
+        background-color: grey;
+    }
